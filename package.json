@@ -5,15 +5,15 @@
   "description": "Ecommerce application built with the MERN stack",
   "main": "server.js",
   "scripts": {
-    "start": "node internetShopBackend/server.js",
-    "server": "nodemon internetShopBackend/server.js",
+    "start": "node internetShopBackend/index.js",
+    "server": "nodemon internetShopBackend/index.js",
     "client": "npm start --prefix internetShopFrontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node internetShopBackend/seeder",
     "data:destroy": "node internetShopBackend/seeder -d",
     "build": "npm install && npm install --prefix internetShopFrontend && npm run build --prefix internetShopFrontend"
   },
-  "author": "Brad Traversy",
+  "author": "Andrii Petryk",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
