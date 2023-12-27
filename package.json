@@ -10,7 +10,7 @@
     "client": "npm start --prefix internetShopFrontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node internetShopBackend/seeder",
-    "data:destroy": "node internetShopBackend/seeder -d",
+    "data:destroy": "node internetShopBackend/seeder -d"
   },
   "author": "Andrii Petryk",
   "license": "MIT",
