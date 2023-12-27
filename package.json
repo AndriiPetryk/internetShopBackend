@@ -11,7 +11,6 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node internetShopBackend/seeder",
     "data:destroy": "node internetShopBackend/seeder -d",
-    "build": "npm install && npm install --prefix internetShopFrontend && npm run build --prefix internetShopFrontend"
   },
   "author": "Andrii Petryk",
   "license": "MIT",
